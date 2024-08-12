@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQFmP1QADjMQZPUuS9enZ_Br_vVL2iXF5EZAnoRsE4yuEJ1jCx7eyctUE1I_dBUd9m9WZ3RVURPoYCrcNTUpN-vaS5Pn8Dw47brj9SwfnLtjnktRW_ZzxZzJaFbeDIx3B8WWCuFHO6GdulRAsGeKRRtUBYxZqjvIcVvNHvUYYnl5fSCN_0oV1ocbgMvTTX4veCAj6W-7Va0VwOlUWyz5tNnxGAbGVHxLofBH9MK661Zc4HJ4Ab7_HSkhbVuAxZUOFX4mJnxb_3bTqQhcwCQ80SyCB7xE-YRSxdyD0Zm-P67GGdyQ7P_HwXwGeUvu-pGAlltqfR5D1vqoqGnpCyiYka-e_7djvgAAAAGl1USMAA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -81,7 +81,7 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://graph.org/file/9616e136e63d3025fc7db.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph//file/2d576fcf982ff294b0d5a.jpg"
+    "PING_IMG_URL", "https://graph.org/file/f8b36ccf74f626bf0d8fd.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph//file/77ba78d195c2e26de2d32.jpg"
 STATS_IMG_URL = "https://graph.org/file/74901dfc1b6671fbc4265.jpg"
